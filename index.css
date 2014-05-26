@@ -1,4 +1,4 @@
-input#startbutton, input#storepoints, input#displaypoints{
+input#generatepoints{
 	cursor:pointer; / forces cursor to change to a hand when hovering over button
 	width: 100px;
 	height: 100px;
@@ -18,7 +18,7 @@ input#startbutton, input#storepoints, input#displaypoints{
 
 }
 
-input#startbutton:hover, input#storepoints:hover, input#displaypoints:hover{
+input#generatepoints:hover{
 	background:#c20b0b;
 	border:1px solid #c20b0b;
 

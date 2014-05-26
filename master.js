@@ -1,14 +1,6 @@
 var numClicks = 0;
 
-function storePoints() {
+function generatePoints() {
 	numClicks = numClicks + 1;
-}
-
-function start() {
-	var message = "Hello world!";
-	confirm(message);
-}
-
-function displayPoints() {
-	document.write(numClicks);
+	document.getElementById("p1").innerHTML = numClicks;
 }
