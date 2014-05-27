@@ -1,4 +1,4 @@
-input#generatepoints{
+input#generatepoints, input#firstUpgrade{
 	cursor:pointer; / forces cursor to change to a hand when hovering over button
 	width: 100px;
 	height: 100px;
@@ -18,7 +18,7 @@ input#generatepoints{
 
 }
 
-input#generatepoints:hover{
+input#generatepoints:hover, input#firstupgrade:hover{
 	background:#c20b0b;
 	border:1px solid #c20b0b;
 
@@ -26,4 +26,7 @@ input#generatepoints:hover{
 	-moz-box-shadow: 0px 0px 5px rgba(0,0,0,.75);
 	box-shadow: 0px 0px 5px rgba(0,0,0,.75);
 }
-}
+
+img#pic {visibility:hidden;}
+
+input#firstUpgrade {visibility:hidden;}
