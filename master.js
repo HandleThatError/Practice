@@ -16,3 +16,7 @@ function generatePoints() {
 	
 }
 
+function firstUpgrade() {
+	pointIncrement = 2;
+	numClicks = 0;
+}
